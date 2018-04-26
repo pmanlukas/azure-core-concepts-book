@@ -1,3 +1,11 @@
+## Note on the current state of this book
+I will continue Arafatos work on this azure core concepts book. First I 
+will review the current chapters and add or adjust them to current 
+changes in Azure. Then I will continue to extend its contents. If you 
+want to support this project, then open an issue and create your own 
+fork :)
+
+
 # Azure Core Concepts
 The eBook will be free and open sourced on Github at https://github.com/arafato/azure-core-concepts-book and published via Leanpub at https://leanpub.com/azure-core-concepts.
 Any royalties will be donated to http://amazonwatch.org/
