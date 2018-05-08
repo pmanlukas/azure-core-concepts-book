@@ -580,7 +580,11 @@ When you are going to develop for Microsoft Azure, you also need the right tooli
 * [Visual Studio for Mac](https://www.visualstudio.com/de/vs/mac/?rr=https%3A%2F%2Fwww.google.com%2F)
 * [Visual Studio Code](https://code.visualstudio.com/?wt.mc_id=adw-brand&gclid=CjwKCAjwlcXXBRBhEiwApfHGTUBGjPRVKGRQEaYjLvgUIM29n_jXl5ar8Synl7SaIu0YpXI21GfZjxoCAiwQAvD_BwE)
 
+Visual Studio Community Edition is a fully integrated IDE, that offers support for all major programming languages (e.g. C#, C++, Java, JavaScript, Python). Visual Studio also features tooling for Azure, Game Development, Windows and Web Development and also tooling for Containers or Data Science. The usage is free and the supported platform is Windows.
 
+Mac OS users can use Visual Studio for Mac. This version of Visual Studio is also for free and has its roots in the mono project and xamarin studio. It allows .Net development on the Mac is currently updated to offer the same feature set as the windows version. You find more information on VS for Mac [here](https://blogs.msdn.microsoft.com/visualstudio/category/visual-studio-for-mac/).
+
+For Linux Users and every developer that prefers are more light weight code editor, there is Microsofts open source project Visual Studio Code. VS Code is built on the latest web technology and is a cross platform code editor that works with all languages. VS Code also offers greate flexiblity and extensibility and features like debugging or version control built in. There are extensions for Azure as well as other Azure services. You find more information [here](https://www.youtube.com/watch?v=-TtJujbKE00).
 
 ## Infrastructure as a Service (IaaS)
 TODO: VMs, Storage, VNET, Availability Set, Managed Disks
