@@ -1,18 +1,18 @@
 ## Note on the current state of this book
-I will continue Arafatos work on this azure core concepts book. First I 
+== I will continue Arafatos work on this azure core concepts book. First I 
 will review the current chapters and add or adjust them to current 
 changes in Azure. Then I will continue to extend its contents. If you 
 want to support this project, then open an issue and create your own 
-fork :)
+fork :) ==
 
 
 # Azure Core Concepts
-The eBook will be free and open sourced on Github at https://github.com/arafato/azure-core-concepts-book and published via Leanpub at https://leanpub.com/azure-core-concepts.
+The eBook will be free and open sourced on Github at https://github.com/lukaspman/azure-core-concepts-book and published via Leanpub at https://leanpub.com/azure-core-concepts.
 Any royalties will be donated to http://amazonwatch.org/
 
 I'm leaving the original Azure Ramp-Up guide here until the book has been published.
 
-**DRAFT VERSION 0.3** (still early stage, TOC is almost final)
+**DRAFT VERSION 0.4** (still early stage, TOC is almost final)
 
 ## Table of Contents
 
