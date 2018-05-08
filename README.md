@@ -93,6 +93,9 @@ Endpoints: are [listed here](https://github.com/arafato/Azure-RampUp/blob/master
 `$ az cloud list --query "[?name == 'AzureCloud'].endpoints"`
 
 #### Azure German Cloud
+
+:no_entry: If you want to use Azure from a german data center but still use the public cloud, then wait for the announced new german regions. There will be two additional data centers in germany and also in swiss. More information: [German Public](https://blogs.microsoft.com/blog/2018/03/14/microsoft-expands-cloud-services-in-europe-and-into-middle-east-to-meet-growing-customer-demand/) :no_entry:
+
 Also known as *Microsoft Cloud Deutschland*. Comprised of 2 regions, one located in 
 Frankfurt, the other one in Magdeburg. Operated by T-Systems International GmbH, a 
 subsidiary of Deutsche Telekom. Serves as trustee, protecting disclosure of data
@@ -130,13 +133,14 @@ Endpoints: are [listed here](https://github.com/arafato/Azure-RampUp/blob/master
 `$ az cloud list --query "[?name == 'AzureUSGovernment'].endpoints"`
 
 ### Regions
-The Azure platform is currently comprised of 34 regions world-wide.
+The Azure platform is currently comprised of 50 regions world-wide.
 A region is a geographical location of a cluster of Azure data-centers. Each region is assigned to one and only one environment.
 More information at [https://azure.microsoft.com/regions/](https://azure.microsoft.com/regions/)
 
 Azure regions are organized as so-called *Paired Regions*. Each Azure region is paired with another region within the same geography, together making a regional pair. 
 The exception is Brazil South, which is paired with a region outside its geography.
 More information at [https://docs.microsoft.com/azure/best-practices-availability-paired-regions](https://docs.microsoft.com/azure/best-practices-availability-paired-regions)
+
 #### Gotchas
 >- When deploying new resources onto Azure you can select the region to deploy to, however, 
 >as of now you cannot choose amongst the individual data-centers available in that region. 
