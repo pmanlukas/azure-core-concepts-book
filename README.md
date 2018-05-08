@@ -23,6 +23,11 @@ I'm leaving the original Azure Ramp-Up guide here until the book has been publis
     * [Authentication and Authorization](#authentication-and-authorization)
     * [Azure Resource Manager](#azure-resource-manager)
 * [Developer Tooling](#developer-tooling)
+    * [Talk to Azure](#ttazure)
+    * [Azure Portal](#azureportal)
+    * [Azure Cli](#azurecli)
+    * [Azure SDKs](#azuresdks)
+    * [Tooling by Microsoft](#mstools)
 * [Infrastructure as a Service (IaaS)](#infrastructure-as-a-service-iaas)
 * [Platform as a Service (IaaS)](#platform-as-a-service-paas)
 * [Software as a Service (SaaS)](#software-as-a-service-saas)
@@ -448,6 +453,7 @@ Also there is a [free and commercial plugin](http://t4-editor.tangible-engineeri
 This section will discuss the different means to programmatically talk to Microsoft Azure, and the tooling that is provided by us and third party vendors.
 
 ### Talking to Microsoft Azure
+[talk to Azure](#ttazure)
 Essentially, Microsoft Azure provides 4 different means to talk to the platform:
 - Azure Portal
 - Command Line Interface (CLI)
@@ -462,11 +468,13 @@ Let's look at each of them and discuss how to use and configure them.
 >- As a rule of thumb, assume that per default, all our tools usually use the endpoints of the International Cloud.
 
 ### Azure Portal
+[azure portal](#azureportal)
 While not being a programmatic means to talk to Azure, for many it is often the first starting point. Keep in mind that every [Azure Environment](#environments) has its dedicated portal running at a dedicated URL, requiring you to use separate login credentials, stored in [Azure Active Directory Tenants](#azure-active-directory) tied to the according environment. No single sign-on experience is provided across different Azure Environments since they do not have a trust-relationship amongst each other.
 
 Please refer to the section [Azure Environments](#environments) to get an overview, under which URL an according portal for a given environment can be found. 
 
 ### Command Line Interface (CLI)
+[cli](#azurecli)
 Azure is currently providing two different cross-platform CLIs:
 - The old one based on NodeJS, still supporting the old ASM and the new ARM model. It is available via [Node Package Manager (NPM)](https://www.npmjs.com/package/azure-cli), and hosted on [Github](https://github.com/Azure/azure-xplat-cli).
 - The new one often referred to as **Azure CLI 2.0**, written in Python, and only supporting the new ARM model. It is also hosted on [Github](https://github.com/azure/azure-cli). For installing instructions please refer to our [install guide](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli).
@@ -491,6 +499,7 @@ where `<environment_name>` is any of our [currently available Azure Environments
 
 
 ### SDKs and Tools
+[sdks](#azuresdks)
 You can get an overview about our officially supported SDKs and tools at  
 [https://docs.microsoft.com/en-us/azure/#pivot=sdkstools&panel=sdkstools-all](https://docs.microsoft.com/en-us/azure/#pivot=sdkstools&panel=sdkstools-all)
 
@@ -575,6 +584,7 @@ TODO: Portal, CLIs, SDKs, IDEs and according configuration
 - [Azure CLI 2.0](https://docs.microsoft.com/cli/azure/)
 
 ### Developer Tooling
+[tools](#mstools)
 When you are going to develop for Microsoft Azure, you also need the right tooling to interact with Azure's APIs, SDKs and also its services. Microsoft supports all major IDEs and Code Editors. Still Microsoft offers several greate and free options for developers. These are:
 * [Visual Studio Community Edition](https://www.visualstudio.com/de/vs/features/game-development/?rr=https%3A%2F%2Fwww.google.com%2F)
 * [Visual Studio for Mac](https://www.visualstudio.com/de/vs/mac/?rr=https%3A%2F%2Fwww.google.com%2F)
