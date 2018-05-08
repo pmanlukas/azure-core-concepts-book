@@ -574,6 +574,14 @@ TODO: Portal, CLIs, SDKs, IDEs and according configuration
 
 - [Azure CLI 2.0](https://docs.microsoft.com/cli/azure/)
 
+### Developer Tooling
+When you are going to develop for Microsoft Azure, you also need the right tooling to interact with Azure's APIs, SDKs and also its services. Microsoft supports all major IDEs and Code Editors. Still Microsoft offers several greate and free options for developers. These are:
+* [Visual Studio Community Edition](https://www.visualstudio.com/de/vs/features/game-development/?rr=https%3A%2F%2Fwww.google.com%2F)
+* [Visual Studio for Mac](https://www.visualstudio.com/de/vs/mac/?rr=https%3A%2F%2Fwww.google.com%2F)
+* [Visual Studio Code](https://code.visualstudio.com/?wt.mc_id=adw-brand&gclid=CjwKCAjwlcXXBRBhEiwApfHGTUBGjPRVKGRQEaYjLvgUIM29n_jXl5ar8Synl7SaIu0YpXI21GfZjxoCAiwQAvD_BwE)
+
+
+
 ## Infrastructure as a Service (IaaS)
 TODO: VMs, Storage, VNET, Availability Set, Managed Disks
 https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-windows-sizes
