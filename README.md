@@ -612,6 +612,9 @@ TODO: Azure Marketplace
 ## Open Source Ecosystem
 This chapter is about third party OSS projects in the context of Microsoft Azure.
 ### Compute
+
+[Here]('azure-core-concepts-book/manuscript/compute.md') is the full chapter on compute on Azure.
+
 - [Serverless Framework](https://serverless.com/)  
 The Serverless Framework allows you to deploy auto-scaling, pay-per-execution, event-driven functions to any cloud. 
 It currently supports **Microsoft Azure**, AWS Lambda, Apache OpenWhisk, and is expanding to support other cloud providers.
